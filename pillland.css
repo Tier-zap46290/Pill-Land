@@ -1,0 +1,204 @@
+.a{
+	background-color: orange;
+	border: solid orange;
+	border-top-right-radius: 16px;
+	border-bottom-left-radius: 16px;
+	border-top-left-radius: 16px;
+	width: 100px;
+	height: 40px;
+	float: right;
+	color: white;
+	font-size: 20px;
+}
+
+.a:hover{
+	background-color: darkorange;
+	border: solid darkorange;
+}
+
+.new{
+	background-color: transparent;	
+    border: solid orange;
+    border-width: 3px; 
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.cart-header {
+    display: inline-grid;
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid orange;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+
+.b{
+    position: relative;
+    cursor: pointer;
+	background-color: white;
+	border: solid orange;
+    outline: none;
+	width: 100px;
+	height: 40px;
+	margin-left: 1020px; ;
+	color: orange;
+	font-size: 20px;
+    border-top-left-radius: 20px;
+}	
+
+.b:hover{
+	background: linear-gradient(90deg, #f5ce62, #ffeb3b, #e43603, #ffff);
+    background-size: 400%
+}
+/*
+.b:before{
+    content: '';
+    position: absolute;
+    background:inherit;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left:-5px;
+    filter: blur(20px);
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.b:hover:before{
+    opacity: 1;
+    z-index: -1;
+}
+
+.b:hover:after{
+    z-index: 1;
+    animation: glow 8s linear infinite;
+}
+
+@keyframes glow{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%
+    }
+}
+*/
+.c{
+	background-color: darkorange;
+	border: solid darkorange;
+	width: 80px;
+	height: 40px;
+	color: white;
+	font-size: 17px;
+}
+
+.c:hover{
+	background-color: white;
+	color: orange;
+
+}
+
+.item-title{
+    color: white;
+    font-weight: bold;
+}
+
+.item-price{
+    color: darkgrey;
+    font-size: 25px; 
+}
+
