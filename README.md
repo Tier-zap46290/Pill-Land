@@ -1,4 +1,6 @@
 # hello-world
 Project Website - Pill Land
 
-This website is just a sample project 
+The project contains a one-page website merely coded as a sample project.
+
+Languages used : HTML, CSS, Javascript
